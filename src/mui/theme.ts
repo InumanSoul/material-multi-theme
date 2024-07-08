@@ -1,8 +1,8 @@
 import { createTheme } from '@mui/material/styles';
-import { bolnasite } from './palette/bolnasite';
-import { wildCasino } from './palette/wildcasino';
-import { Theme } from './palette/interface';
-import { superSlots } from './palette/superslots';
+import { bolnasite } from './themes/bolnasite/bolnasite';
+import { wildCasino } from './themes/wildcasino/wildcasino';
+import { Theme } from './themes/interface';
+import { superSlots } from './themes/superslots/superslots';
 
 const brand: string = import.meta.env.VITE_BRAND_NAME;
 
